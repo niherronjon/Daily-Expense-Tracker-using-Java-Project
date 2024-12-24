@@ -229,3 +229,20 @@ class ExpenseManager {
         }
     }
 }
+
+
+/* Outppt  
+------------------------------------
+| Welcome to Daily Expense Tracker |
+------------------------------------
+
+1. Register User
+2. Login User
+3. Add Expense
+4. View Expenses
+5. Generate Report
+6. Save and Exit
+Choose an option: 
+
+*/
+
