@@ -3,13 +3,15 @@ import java.time.LocalDate;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner scanner = new Scanner(System.in);
         ExpenseManager expenseManager = new ExpenseManager();
 
         printWelcomeBox();
         
-        while (true) {
+        while (true)
+        {
             System.out.println("\n1. Register User");
             System.out.println("2. Login User");
             System.out.println("3. Add Expense");
