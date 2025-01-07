@@ -2,7 +2,8 @@ import java.io.*;
 import java.time.LocalDate;
 import java.util.*;
 
-public class Main {
+public class Main
+{
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
@@ -22,7 +23,8 @@ public class Main {
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
 
-            switch (choice) {
+            switch (choice)
+            {
                 case 1:
                     printRegisterBox();
                     expenseManager.registerUser(scanner);
